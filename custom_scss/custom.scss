@@ -1,0 +1,81 @@
+
+$primary: #D3F1DF;
+$secondary: #85A98F;
+$success: #5A6C57;
+$info: #525B44;
+$warning: #8174A0;
+$danger: #A888B5;
+$light: #EFB6C8;
+$dark: #FFD2A0;
+
+.small{
+    font-size: 60px !important;
+}
+.mark{
+    color: red !important;
+    text-decoration: line-through;
+}
+.list-custom{
+    list-style-type: "\1F44D";
+}
+
+.font-family-sans-serif {
+    font-family: 'verdana', sans-serif;
+    color: green;
+}
+.line-height-base{
+    line-height: 10;
+}
+.text-xl{
+    font-size: 10px
+}
+.btn-border-radius{
+    border: 1px solid black;
+}
+.spacer{
+    letter-spacing: 20px;
+}
+.alert-primary-bg{
+    background-color: #FFD700;
+}
+.btn-font-weight{
+    font-weight: 100;
+}
+.btn-padding-y{
+    padding: 0px 500px;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-start {
+    text-align: start;
+}
+.text-align-end {
+    text-align: end;
+}
+.display1-size::first-letter{
+    font-size: 100px;
+}
+.text-small-all-letter{
+    text-transform: lowercase;
+}
+.text-big-all-letter{
+    text-transform: uppercase;
+}
+.text-italic{
+    font-style: italic;
+}
+.float-right{
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.select-all{
+    user-select:all;
+}
+.non-select {
+    user-select: none;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
